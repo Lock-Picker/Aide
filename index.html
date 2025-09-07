@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Serrurier d’Urgence Besançon – Lock Picker</title>
+  <meta name="description" content="Serrurier urgence à Besançon – Déblocage de portes, serrures et cadenas. Intervention rapide en 30 minutes. Contactez Lock Picker au 06 98 98 95 53 !" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0f172a;
+      color: #e2e8f0;
+      scroll-behavior: smooth;
+    }
+    .card {
+      background: #1e293b;
+      border-radius: 0.75rem;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-6px) scale(1.02);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.5);
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.8s forwards;
+    }
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body class="min-h-screen">
+  <!-- Navigation -->
+  <nav class="sticky top-0 bg-[#1e293b] shadow-md z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        <h1 class="text-2xl font-bold text-blue-400">🔑 Lock Picker</h1>
+        <div class="space-x-6">
+          <a href="#services" class="text-gray-300 hover:text-blue-400">Services</a>
+          <a href="#why" class="text-gray-300 hover:text-blue-400">Pourquoi nous ?</a>
+          <a href="#contact" class="text-gray-300 hover:text-blue-400">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="relative h-[550px] flex items-center justify-center">
+    <img src="https://www.simplitoo.fr/media/articles/preview_97y8fE6.jpeg" 
+         alt="Fond serrurerie" class="absolute inset-0 w-full h-full object-cover">
+    <div class="absolute inset-0 bg-gradient-to-t from-[#0f172a]/80 via-[#0f172a]/40 to-transparent"></div>
+    <div class="relative z-10 text-center px-6 fade-in">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4 text-white">Serrurier d’Urgence à Besançon</h2>
+      <p class="text-lg md:text-xl mb-6 text-gray-200">Porte bloquée ? Clé perdue ? Intervention garantie en moins de 30 minutes.</p>
+      <a href="tel:0698989553" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition">📞 06 98 98 95 53</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-20 bg-[#0f172a]">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-center text-blue-400 mb-12 fade-in">Nos Services</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div class="card p-6 text-center fade-in">
+          <img src="https://t4.ftcdn.net/jpg/01/66/39/05/360_F_166390510_aighrJsm9rOE5s3kL8GiAtFwpiXW2cZS.jpg" alt="Ouverture de porte" class="w-full h-44 object-cover rounded mb-4">
+          <h3 class="text-xl font-semibold mb-3 text-white">🚪 Ouverture de porte</h3>
+          <p class="text-gray-300">Déblocage rapide de portes claquées ou verrouillées, sans dégâts inutiles.</p>
+        </div>
+      <div class="card p-6 text-center fade-in">
+        <img src="https://media.istockphoto.com/id/622216354/photo/lockpicker-fixing-door-handle-at-home.jpg?s=612x612&w=0&k=20&c=52azNUr7Mm3PSe2QJP62efGPxTDoIh9BCgPfuoBCIZg=" 
+            alt="Serrures et verrous" 
+            class="w-full h-44 object-cover rounded mb-4">
+        <h3 class="text-xl font-semibold mb-3 text-white">🔒 Serrures & verrous</h3>
+        <p class="text-gray-300">Réparation ou installation de serrures sécurisées.</p>
+      </div>
+        <div class="card p-6 text-center fade-in">
+          <img src="https://media.istockphoto.com/id/848304240/photo/an-lock-pick.jpg?s=612x612&w=0&k=20&c=3E1AQb75WCHBm2-_UR7h26veQZ52NqZ0o6Y-R54190Q=" alt="Cadenas bloqués" class="w-full h-44 object-cover rounded mb-4">
+          <h3 class="text-xl font-semibold mb-3 text-white">⛓️ Cadenas bloqués</h3>
+          <p class="text-gray-300">Ouverture professionnelle de cadenas, antivols et coffres coincés.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pourquoi nous -->
+  <section id="why" class="py-20 bg-[#1e293b]">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center px-4">
+      <div class="fade-in">
+        <h2 class="text-3xl font-bold text-blue-400 mb-6">Pourquoi choisir Lock Picker ?</h2>
+        <ul class="space-y-4 text-lg text-gray-300">
+          <li>⚡ <strong class="text-white">Rapidité</strong> : Intervention en moins de 30 minutes à Besançon.</li>
+          <li>💰 <strong class="text-white">Transparence</strong> : Prix justes et annoncés à l’avance.</li>
+          <li>📍 <strong class="text-white">Proximité</strong> : Disponible 24/7 dans tout Besançon et alentours.</li>
+        </ul>
+      </div>
+      <img src="https://t4.ftcdn.net/jpg/05/66/23/51/360_F_566235195_nhDDuQpommcxK9SBtY2gq5IxvsJxCIdE.jpg" alt="Serrurier au travail" class="rounded-xl shadow-lg fade-in">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 bg-[#0f172a]">
+    <div class="max-w-4xl mx-auto text-center px-4 fade-in">
+      <h2 class="text-3xl font-bold text-blue-400 mb-6">Contactez-moi</h2>
+      <p class="mb-4 text-lg text-gray-300">Disponible 24h/24 et 7j/7 à Besançon et alentours. Intervention garantie en moins de 30 minutes.</p>
+      <p class="mb-2 text-xl">📞 <a href="tel:0698989553" class="text-blue-400 font-semibold">06 98 98 95 53</a></p>
+      <p class="text-xl">📧 <a href="mailto:mguyout@gmail.com" class="text-blue-400 font-semibold">mguyout@gmail.com</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#1e293b] text-gray-400 py-6 text-center">
+    <p>© 2025 Lock Picker – Serrurier d’Urgence à Besançon</p>
+  </footer>
+</body>
+</html>
